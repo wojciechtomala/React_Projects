@@ -1,0 +1,52 @@
+.top-pane {
+    background-color: #333;
+}
+.pane{
+    height: 50vh;
+    display: flex;
+}
+.editor-container{
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    background-color: #333;
+    box-sizing: border-box;
+}
+
+.editor-title{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 10px 20px;
+    color: #FFF;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    align-items: center;
+}
+.CodeMirror{
+    height: 100% !important;
+}
+.code-mirror-wrapper{
+    flex-grow: 1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+}
+.editor-container.collapsed{
+    flex-grow: 0;
+}
+.editor-container.collapsed .CodeMirror-scroll{
+    position: absolute;
+    overflow: hidden !important;
+}
+.expand-collapse-btn{
+    padding: 8px;
+    border: 0px;
+    background-color: #111;
+    color: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+}
