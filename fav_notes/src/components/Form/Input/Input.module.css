@@ -1,0 +1,14 @@
+textarea, input{
+    padding: 10px 20px;
+    border: 0px;
+    border-bottom: 2px solid #666;
+    font-size: 20px;
+}
+input:focus, textarea:focus{
+    border-bottom: 2px solid #1E58FF;
+    outline: none;
+}
+textarea{
+    resize: none;
+    height: 200px;
+}

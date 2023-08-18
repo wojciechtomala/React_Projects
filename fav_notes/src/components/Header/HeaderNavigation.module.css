@@ -1,0 +1,24 @@
+
+nav{
+    width: 100%;
+    margin: 0px 30px;
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: min-content;
+    gap: 20px;
+    padding: 0;
+}
+.navigationItem{
+    list-style: none;
+}
+.navigationItem a{
+    text-decoration: none;
+    color: #818181;
+    text-transform: lowercase;
+}
+.navigationItem .active{
+    color: #111;
+    font-weight: 900;
+}

@@ -1,0 +1,21 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap:20px;
+    padding: 20px;
+    height: 100%;
+}
+form h1{
+    color: #1E58FF;
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 0px;
+    align-items: flex-start;
+}
+.buttonsContainer label{
+    margin-right: 20px;
+}
