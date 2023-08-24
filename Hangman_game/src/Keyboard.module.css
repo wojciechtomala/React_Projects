@@ -1,0 +1,30 @@
+.Keyboard{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: .5rem;
+    width: 100%;
+}
+.Key{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 24px;
+    border: 0px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: aliceblue;
+    font-weight: bold;
+    color: #333;
+}
+.Key:hover:not(:disabled){
+    background-color: #EEE;
+}
+
+.Key.active{
+    background-color: rgb(97, 170, 97);
+}
+
+.Key.inactive{
+    opacity: 0.3;
+}
