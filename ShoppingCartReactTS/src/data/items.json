@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Keyboard G915",
+      "price": 139.99,
+      "imageURL": "/images/keyboard.png"
+    },
+    {
+      "id": 2,
+      "name": "Keyboard G815",
+      "price": 99.99,
+      "imageURL": "/images/keyboardG815.png"
+    },
+    {
+      "id": 3,
+      "name": "Mouse G PRO",
+      "price": 89.99,
+      "imageURL": "/images/mouse.png"
+    },
+    {
+      "id": 4,
+      "name": "Mousepad",
+      "price": 14.99,
+      "imageURL": "/images/mousepad.png"
+    }
+  ]
